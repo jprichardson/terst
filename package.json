@@ -1,0 +1,29 @@
+{
+  "name": "terst",
+  "version": "0.0.1",
+  "description": "A JavaScript testing component with a terse syntax.",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jprichardson/terst"
+  },
+  "keywords": [
+    "testing",
+    "terse",
+    "unit"
+  ],
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "testutil": "~0.6.0"
+  },
+  "main": "lib/terst.js",
+  "scripts": {
+    "test": "mocha test"
+  }
+}

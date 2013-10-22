@@ -1,0 +1,12 @@
+{
+  "name": "terst",
+  "description": "A JavaScript testing component with a terse syntax.",
+  "keywords": [
+    "testing",
+    "terse",
+    "unit"
+  ],
+  "main": "lib/terst.js",
+  "repo": "jprichardson/terst",
+  "version": "0.0.1"
+}
