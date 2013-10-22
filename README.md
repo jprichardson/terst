@@ -98,7 +98,7 @@ Asserts if `val1` strictly equals `val2`.
 Asserts if `val` does not strictly equal `val2`.
 
 
-### APPROX (value, delta, [msg])
+### APPROX (value, expected, delta, [msg])
 
 Asserts if the value is within +- the delta.
 
