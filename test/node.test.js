@@ -124,17 +124,38 @@ describe('terst', function() {
         APPROX (95, 100, 5)
       })
     })
+
+    describe('> when not within range', function() {
+      it('should throw an exception', function() {
+        var err = 0
+        try { APPROX (100, 100.2, 0.1)} catch(e) { err += 1}
+        try { APPROX (50, 100, 0.1)} catch(e) { err += 1}
+        try { APPROX (-100, 100.1, 0.1)} catch(e) { err += 1}
+        try { APPROX (-100, -105, 2)} catch(e) { err += 1}
+
+        if (err !== 4) throw new Error ("error count invalid")
+      })
+    })
   })
 
-  describe('> when not within range', function() {
-    it('should throw an exception', function() {
-      var err = 0
-      try { APPROX (100, 100.2, 0.1)} catch(e) { err += 1}
-      try { APPROX (50, 100, 0.1)} catch(e) { err += 1}
-      try { APPROX (-100, 100.1, 0.1)} catch(e) { err += 1}
-      try { APPROX (-100, -105, 2)} catch(e) { err += 1}
+  describe('+ THROWS()', function() {
+    it('should throw', function() {
+      function methodThatThrows() {
+        throw new Error('hi mom')
+      }
 
-      if (err !== 4) throw new Error ("error count invalid")
+      function methodThatDoesNotThrow() {}
+
+      THROWS (methodThatThrows)
+
+      var err = false
+      try {
+        THROWS (methodThatDoesNotThrow)
+      } catch (e) {
+        err = true
+      }
+
+      T (err)
     })
   })
 })

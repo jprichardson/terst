@@ -102,6 +102,11 @@ Asserts if `val` does not strictly equal `val2`.
 
 Asserts if the value is within +- the delta.
 
+### THROWS (fun)
+
+Asserts if a function throws i.e. if it does not throw, there is an error.
+
+
 
 **NOTE:** For descriptive errors, you can set `terse.autoMsg = true`. It's experimental only.
 
