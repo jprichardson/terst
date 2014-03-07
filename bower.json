@@ -1,5 +1,6 @@
 {
   "name": "terst",
+  "version": "0.1.0",
   "description": "A JavaScript testing component with a terse syntax.",
   "keywords": [
     "testing",
@@ -7,6 +8,5 @@
     "unit"
   ],
   "main": "lib/terst.js",
-  "repo": "jprichardson/terst",
-  "version": "0.0.1"
+  "repo": "jprichardson/terst"
 }
