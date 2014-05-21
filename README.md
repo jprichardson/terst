@@ -40,7 +40,7 @@ expect([]).to.be.an('array');
 or..
 
 ```js
-T (typeof window == 'undefined')
+T (typeof window.r == 'undefined')
 T (typeof 5 == 'number')
 T (Array.isArray([]))
 ```
