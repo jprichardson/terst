@@ -2,7 +2,6 @@
 ------------------
 * `THROWS()` returns `Error` object
 * added Travis CI
-* added coveralls
 
 0.1.0 / 2014-03-07
 ------------------
