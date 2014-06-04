@@ -2,6 +2,7 @@
 ------------------
 * `THROWS()` returns `Error` object
 * added Travis CI
+* added testling
 
 0.1.0 / 2014-03-07
 ------------------
