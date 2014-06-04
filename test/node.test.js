@@ -157,6 +157,15 @@ describe('terst', function() {
 
       T (err)
     })
+
+    it('should return an Error object when method throws', function() {
+      var msg = "some error"
+      var err = THROWS(function() {
+        throw new Error(msg)
+      })
+      T (err)
+      EQ (err.message, msg)
+    })
   })
 })
 
