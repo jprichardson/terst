@@ -3,6 +3,8 @@ terst
 
 [![build status](https://secure.travis-ci.org/jprichardson/terst.png)](http://travis-ci.org/jprichardson/terst)
 
+[![browser support](https://ci.testling.com/jprichardson/terst.png)](https://ci.testling.com/jprichardson/terst)
+
 A JavaScript testing component with a terse syntax. Supported in both Node.js and the browser.
 
 
