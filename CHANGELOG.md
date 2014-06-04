@@ -1,3 +1,9 @@
+0.2.0 / 2014-06-04
+------------------
+* `THROWS()` returns `Error` object
+* added Travis CI
+* added coveralls
+
 0.1.0 / 2014-03-07
 ------------------
 * added `THROWS()`

@@ -1,6 +1,9 @@
 terst
 =====
 
+[![build status](https://secure.travis-ci.org/jprichardson/terst.png)](http://travis-ci.org/jprichardson/terst)
+[![Coverage Status](https://img.shields.io/coveralls/jprichardson/terst.svg)](https://coveralls.io/r/jprichardson/terst)
+
 A JavaScript testing component with a terse syntax. Supported in both Node.js and the browser.
 
 

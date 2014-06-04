@@ -1,4 +1,4 @@
-var terst = require('../lib/terst')
+var terst = require('../')
 
 describe('terst', function() {
   describe('+ T()', function() {

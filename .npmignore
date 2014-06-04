@@ -2,3 +2,4 @@ test/
 .gitignore
 bower.json
 component.json
+.travis.yml
