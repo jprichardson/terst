@@ -1,3 +1,7 @@
+0.2.1 / 2014-08-09
+------------------
+* bugfix: browser error messages for `T()` and `F()`
+
 0.2.0 / 2014-06-04
 ------------------
 * `THROWS()` returns `Error` object
