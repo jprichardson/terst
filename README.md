@@ -51,9 +51,9 @@ Don't even get me started on [Node.js assert](http://nodejs.org/api/assert.html)
 
 Terst has three main advantages:
 
-1. There are only five methods to remember. You aren't second guessing what each method really does or constantly referring to the documentation.
+1. There are only six methods to remember. You aren't second guessing what each method really does or constantly referring to the documentation.
 2. Your eyes can quickly scan down the left side of your tests to quickly interpret what each test should do. Terst forces you to be very explicit.
-3. It's very light weight.
+3. It's very lightweight.
 
 
 
@@ -118,6 +118,6 @@ License
 
 (MIT License)
 
-Copyright 2013, JP Richardson  <jprichardson@gmail.com>
+Copyright 2013-2014, JP Richardson  <jprichardson@gmail.com>
 
 

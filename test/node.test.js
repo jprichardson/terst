@@ -167,6 +167,25 @@ describe('terst', function() {
       EQ (err.message, msg)
     })
   })
+
+  describe('> when matcher', function() {
+    it('error should match regexp', function() {
+      function methodThatThrows() {
+        throw new Error('hi mom')
+      }
+
+      THROWS (methodThatThrows, /mom/)
+
+      var err = false
+      try {
+        THROWS (methodThatThrows, /dad/)
+      } catch (e) {
+        err = true
+      }
+
+      T (err)
+    })
+  })
 })
 
 
