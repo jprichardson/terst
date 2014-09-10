@@ -29,17 +29,5 @@
   "scripts": {
     "test": "mocha --ui bdd",
     "unit": "./node_modules/.bin/mocha"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "firefox/nightly",
-      "chrome/nightly",
-      "ie/9..latest",
-      "safari/6..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest",
-      "android-browser/4.2..latest"
-    ]
   }
 }

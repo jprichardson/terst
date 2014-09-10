@@ -1,3 +1,7 @@
+0.3.0 / 2014-09-10
+------------------
+- removed testling
+
 0.2.1 / 2014-08-09
 ------------------
 * bugfix: browser error messages for `T()` and `F()`
